@@ -3,40 +3,11 @@
 
 // [345, 897, 568, 234] -> 2*/
 
-// Console.WriteLine("Введите размер массива ");
-
-// int size = int.Parse(Console.ReadLine());
-
-// int[] num = new int[size];
-
-// Random rand = new Random();
-
-// for (int i = 0; i < num.Length; i++)
-// {
-//     num[i] = rand.Next(100, 1000);
-//     Console.WriteLine(num[i]);
-// }
-
-// int Count = 0;
-// foreach (int number in num)
-// {
-// if (number % 2 == 0)
-
-// {
-//  Count ++; 
-// }
-
-// }
-// Console.WriteLine($"всего {num.Length} чисел, {Count} из них чётные");
-
-
-
 
 Console.WriteLine("Введите размер массива ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
-// Console.WriteLine("Вот наш массив: ");
 PrintArray(numbers);
 int Count = 0;
 
